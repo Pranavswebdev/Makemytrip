@@ -27,6 +27,11 @@ build/
 out/
 release/
 
+# Test / tooling output
+coverage/
+playwright-report/
+test-results/
+
 # OS / editor noise
 .DS_Store
 Thumbs.db
