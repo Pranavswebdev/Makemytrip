@@ -1,0 +1,175 @@
+
+> jiva-space@0.1.0 test
+> vitest run --run --coverage
+
+
+[1m[46m RUN [49m[22m [36mv3.2.4 [39m[90mC:/Users/pranav.sajanan/Documents/AI-Framework/Hotel app[39m
+      [2mCoverage enabled with [22m[33mv8[39m
+
+[90mstderr[2m | src/features/auth/VerifyPage.test.tsx[2m > [22m[2mVerifyPage[2m > [22m[2mrenders the verification form with all fields
+[22m[39m⚠️ React Router Future Flag Warning: React Router will begin wrapping state updates in `React.startTransition` in v7. You can use the `v7_startTransition` future flag to opt-in early. For more information, see https://reactrouter.com/v6/upgrading/future#v7_starttransition.
+⚠️ React Router Future Flag Warning: Relative route resolution within Splat routes is changing in v7. You can use the `v7_relativeSplatPath` future flag to opt-in early. For more information, see https://reactrouter.com/v6/upgrading/future#v7_relativesplatpath.
+
+[90mstderr[2m | src/features/booking/ChooseDatePage.test.tsx[2m > [22m[2mChooseDatePage[2m > [22m[2mrenders heading and date inputs
+[22m[39m⚠️ React Router Future Flag Warning: React Router will begin wrapping state updates in `React.startTransition` in v7. You can use the `v7_startTransition` future flag to opt-in early. For more information, see https://reactrouter.com/v6/upgrading/future#v7_starttransition.
+⚠️ React Router Future Flag Warning: Relative route resolution within Splat routes is changing in v7. You can use the `v7_relativeSplatPath` future flag to opt-in early. For more information, see https://reactrouter.com/v6/upgrading/future#v7_relativesplatpath.
+
+[90mstderr[2m | src/features/auth/SignUpPage.test.tsx[2m > [22m[2mSignUpPage[2m > [22m[2mrenders the sign up form with all fields
+[22m[39m⚠️ React Router Future Flag Warning: React Router will begin wrapping state updates in `React.startTransition` in v7. You can use the `v7_startTransition` future flag to opt-in early. For more information, see https://reactrouter.com/v6/upgrading/future#v7_starttransition.
+⚠️ React Router Future Flag Warning: Relative route resolution within Splat routes is changing in v7. You can use the `v7_relativeSplatPath` future flag to opt-in early. For more information, see https://reactrouter.com/v6/upgrading/future#v7_relativesplatpath.
+
+[90mstderr[2m | src/features/auth/LoginPage.test.tsx[2m > [22m[2mLoginPage[2m > [22m[2mrenders the login form with all fields
+[22m[39m⚠️ React Router Future Flag Warning: React Router will begin wrapping state updates in `React.startTransition` in v7. You can use the `v7_startTransition` future flag to opt-in early. For more information, see https://reactrouter.com/v6/upgrading/future#v7_starttransition.
+⚠️ React Router Future Flag Warning: Relative route resolution within Splat routes is changing in v7. You can use the `v7_relativeSplatPath` future flag to opt-in early. For more information, see https://reactrouter.com/v6/upgrading/future#v7_relativesplatpath.
+
+ [32m✓[39m src/features/auth/VerifyPage.test.tsx [2m([22m[2m11 tests[22m[2m)[22m[33m 1339[2mms[22m[39m
+   [33m[2m✓[22m[39m VerifyPage[2m > [22menables Continue button click when all codes are filled [33m 380[2mms[22m[39m
+ [32m✓[39m src/features/booking/ChooseDatePage.test.tsx [2m([22m[2m4 tests[22m[2m)[22m[33m 1536[2mms[22m[39m
+   [33m[2m✓[22m[39m ChooseDatePage[2m > [22mdisables Continue until a valid range is chosen [33m 529[2mms[22m[39m
+   [33m[2m✓[22m[39m ChooseDatePage[2m > [22mkeeps Continue disabled when checkout precedes checkin (boundary) [33m 480[2mms[22m[39m
+   [33m[2m✓[22m[39m ChooseDatePage[2m > [22madvances to payment on a valid range [33m 471[2mms[22m[39m
+ [32m✓[39m src/features/auth/LoginPage.test.tsx [2m([22m[2m12 tests[22m[2m)[22m[33m 2216[2mms[22m[39m
+   [33m[2m✓[22m[39m LoginPage[2m > [22menables Login button when form is valid [33m 498[2mms[22m[39m
+   [33m[2m✓[22m[39m LoginPage[2m > [22mshows error message for invalid credentials [33m 602[2mms[22m[39m
+   [33m[2m✓[22m[39m LoginPage[2m > [22mlogs in successfully with seed credentials [33m 422[2mms[22m[39m
+ [32m✓[39m src/features/auth/SignUpPage.test.tsx [2m([22m[2m10 tests[22m[2m)[22m[33m 2781[2mms[22m[39m
+   [33m[2m✓[22m[39m SignUpPage[2m > [22mshows validation error for invalid email [33m 304[2mms[22m[39m
+   [33m[2m✓[22m[39m SignUpPage[2m > [22mshows validation error when passwords don't match [33m 791[2mms[22m[39m
+   [33m[2m✓[22m[39m SignUpPage[2m > [22menables Sign Up button when form is valid [33m 654[2mms[22m[39m
+   [33m[2m✓[22m[39m SignUpPage[2m > [22mnavigates to verify page with email on successful submission [33m 719[2mms[22m[39m
+[90mstderr[2m | src/features/space/SpaceDetailPage.test.tsx[2m > [22m[2mSpaceDetailPage[2m > [22m[2mshows loading then renders the space details
+[22m[39m⚠️ React Router Future Flag Warning: React Router will begin wrapping state updates in `React.startTransition` in v7. You can use the `v7_startTransition` future flag to opt-in early. For more information, see https://reactrouter.com/v6/upgrading/future#v7_starttransition.
+⚠️ React Router Future Flag Warning: Relative route resolution within Splat routes is changing in v7. You can use the `v7_relativeSplatPath` future flag to opt-in early. For more information, see https://reactrouter.com/v6/upgrading/future#v7_relativesplatpath.
+
+[90mstderr[2m | src/features/search/SearchPage.test.tsx[2m > [22m[2mSearchPage[2m > [22m[2mshows the empty prompt before typing
+[22m[39m⚠️ React Router Future Flag Warning: React Router will begin wrapping state updates in `React.startTransition` in v7. You can use the `v7_startTransition` future flag to opt-in early. For more information, see https://reactrouter.com/v6/upgrading/future#v7_starttransition.
+⚠️ React Router Future Flag Warning: Relative route resolution within Splat routes is changing in v7. You can use the `v7_relativeSplatPath` future flag to opt-in early. For more information, see https://reactrouter.com/v6/upgrading/future#v7_relativesplatpath.
+
+ [32m✓[39m src/data/mockApi.test.ts [2m([22m[2m21 tests[22m[2m)[22m[33m 5765[2mms[22m[39m
+   [33m[2m✓[22m[39m mockApi — search[2m > [22mis case-insensitive [33m 529[2mms[22m[39m
+ [32m✓[39m src/features/space/SpaceDetailPage.test.tsx [2m([22m[2m3 tests[22m[2m)[22m[33m 1067[2mms[22m[39m
+   [33m[2m✓[22m[39m SpaceDetailPage[2m > [22mshows loading then renders the space details [33m 376[2mms[22m[39m
+   [33m[2m✓[22m[39m SpaceDetailPage[2m > [22mnavigates to booking date on Book Now [33m 411[2mms[22m[39m
+[90mstderr[2m | src/features/home/HomePage.test.tsx[2m > [22m[2mHomePage[2m > [22m[2mshows a loading state then renders popular spaces
+[22m[39m⚠️ React Router Future Flag Warning: React Router will begin wrapping state updates in `React.startTransition` in v7. You can use the `v7_startTransition` future flag to opt-in early. For more information, see https://reactrouter.com/v6/upgrading/future#v7_starttransition.
+⚠️ React Router Future Flag Warning: Relative route resolution within Splat routes is changing in v7. You can use the `v7_relativeSplatPath` future flag to opt-in early. For more information, see https://reactrouter.com/v6/upgrading/future#v7_relativesplatpath.
+
+ [32m✓[39m src/features/search/SearchPage.test.tsx [2m([22m[2m4 tests[22m[2m)[22m[33m 979[2mms[22m[39m
+   [33m[2m✓[22m[39m SearchPage[2m > [22mreturns matching results for a query [33m 488[2mms[22m[39m
+   [33m[2m✓[22m[39m SearchPage[2m > [22mshows the no-results state for an unknown keyword [33m 366[2mms[22m[39m
+[90mstderr[2m | src/features/profile/ProfilePage.test.tsx[2m > [22m[2mProfilePage[2m > [22m[2mshows loading then renders the user's profile
+[22m[39m⚠️ React Router Future Flag Warning: React Router will begin wrapping state updates in `React.startTransition` in v7. You can use the `v7_startTransition` future flag to opt-in early. For more information, see https://reactrouter.com/v6/upgrading/future#v7_starttransition.
+⚠️ React Router Future Flag Warning: Relative route resolution within Splat routes is changing in v7. You can use the `v7_relativeSplatPath` future flag to opt-in early. For more information, see https://reactrouter.com/v6/upgrading/future#v7_relativesplatpath.
+
+ [32m✓[39m src/features/home/HomePage.test.tsx [2m([22m[2m5 tests[22m[2m)[22m[33m 881[2mms[22m[39m
+   [33m[2m✓[22m[39m HomePage[2m > [22mshows a loading state then renders popular spaces [33m 368[2mms[22m[39m
+   [33m[2m✓[22m[39m HomePage[2m > [22mnavigates to a space detail when a card is tapped [33m 311[2mms[22m[39m
+ [32m✓[39m src/features/profile/ProfilePage.test.tsx [2m([22m[2m2 tests[22m[2m)[22m[33m 701[2mms[22m[39m
+   [33m[2m✓[22m[39m ProfilePage[2m > [22mshows loading then renders the user's profile [33m 301[2mms[22m[39m
+   [33m[2m✓[22m[39m ProfilePage[2m > [22mlogs out and routes to login [33m 398[2mms[22m[39m
+[90mstderr[2m | src/features/discover/DiscoverPage.test.tsx[2m > [22m[2mDiscoverPage[2m > [22m[2mrenders the heading
+[22m[39m⚠️ React Router Future Flag Warning: React Router will begin wrapping state updates in `React.startTransition` in v7. You can use the `v7_startTransition` future flag to opt-in early. For more information, see https://reactrouter.com/v6/upgrading/future#v7_starttransition.
+⚠️ React Router Future Flag Warning: Relative route resolution within Splat routes is changing in v7. You can use the `v7_relativeSplatPath` future flag to opt-in early. For more information, see https://reactrouter.com/v6/upgrading/future#v7_relativesplatpath.
+
+[90mstderr[2m | src/components/SpaceCard.test.tsx[2m > [22m[2mSpaceCard[2m > [22m[2mrenders hotel name, rating and location
+[22m[39m⚠️ React Router Future Flag Warning: React Router will begin wrapping state updates in `React.startTransition` in v7. You can use the `v7_startTransition` future flag to opt-in early. For more information, see https://reactrouter.com/v6/upgrading/future#v7_starttransition.
+⚠️ React Router Future Flag Warning: Relative route resolution within Splat routes is changing in v7. You can use the `v7_relativeSplatPath` future flag to opt-in early. For more information, see https://reactrouter.com/v6/upgrading/future#v7_relativesplatpath.
+
+ [32m✓[39m src/features/discover/DiscoverPage.test.tsx [2m([22m[2m2 tests[22m[2m)[22m[33m 384[2mms[22m[39m
+   [33m[2m✓[22m[39m DiscoverPage[2m > [22mshows loading then renders area sections [33m 334[2mms[22m[39m
+ [32m✓[39m src/components/SpaceCard.test.tsx [2m([22m[2m4 tests[22m[2m)[22m[32m 268[2mms[22m[39m
+[90mstderr[2m | src/features/booking/PaymentPage.test.tsx[2m > [22m[2mPaymentPage[2m > [22m[2mrenders all payment methods
+[22m[39m⚠️ React Router Future Flag Warning: React Router will begin wrapping state updates in `React.startTransition` in v7. You can use the `v7_startTransition` future flag to opt-in early. For more information, see https://reactrouter.com/v6/upgrading/future#v7_starttransition.
+⚠️ React Router Future Flag Warning: Relative route resolution within Splat routes is changing in v7. You can use the `v7_relativeSplatPath` future flag to opt-in early. For more information, see https://reactrouter.com/v6/upgrading/future#v7_relativesplatpath.
+
+ [32m✓[39m src/features/booking/PaymentPage.test.tsx [2m([22m[2m3 tests[22m[2m)[22m[32m 273[2mms[22m[39m
+[90mstderr[2m | src/features/discover/WhereToPage.test.tsx[2m > [22m[2mWhereToPage[2m > [22m[2mrenders the heading and a list of locations
+[22m[39m⚠️ React Router Future Flag Warning: React Router will begin wrapping state updates in `React.startTransition` in v7. You can use the `v7_startTransition` future flag to opt-in early. For more information, see https://reactrouter.com/v6/upgrading/future#v7_starttransition.
+⚠️ React Router Future Flag Warning: Relative route resolution within Splat routes is changing in v7. You can use the `v7_relativeSplatPath` future flag to opt-in early. For more information, see https://reactrouter.com/v6/upgrading/future#v7_relativesplatpath.
+
+ [32m✓[39m src/features/discover/WhereToPage.test.tsx [2m([22m[2m2 tests[22m[2m)[22m[32m 213[2mms[22m[39m
+[90mstderr[2m | src/features/booking/SuccessPage.test.tsx[2m > [22m[2mSuccessPage[2m > [22m[2mrenders the confirmation message
+[22m[39m⚠️ React Router Future Flag Warning: React Router will begin wrapping state updates in `React.startTransition` in v7. You can use the `v7_startTransition` future flag to opt-in early. For more information, see https://reactrouter.com/v6/upgrading/future#v7_starttransition.
+⚠️ React Router Future Flag Warning: Relative route resolution within Splat routes is changing in v7. You can use the `v7_relativeSplatPath` future flag to opt-in early. For more information, see https://reactrouter.com/v6/upgrading/future#v7_relativesplatpath.
+
+ [32m✓[39m src/features/booking/SuccessPage.test.tsx [2m([22m[2m2 tests[22m[2m)[22m[32m 190[2mms[22m[39m
+ [32m✓[39m src/components/Button.test.tsx [2m([22m[2m2 tests[22m[2m)[22m[32m 101[2mms[22m[39m
+[90mstderr[2m | src/components/TopBar.test.tsx[2m > [22m[2mTopBar[2m > [22m[2mrenders a title
+[22m[39m⚠️ React Router Future Flag Warning: React Router will begin wrapping state updates in `React.startTransition` in v7. You can use the `v7_startTransition` future flag to opt-in early. For more information, see https://reactrouter.com/v6/upgrading/future#v7_starttransition.
+⚠️ React Router Future Flag Warning: Relative route resolution within Splat routes is changing in v7. You can use the `v7_relativeSplatPath` future flag to opt-in early. For more information, see https://reactrouter.com/v6/upgrading/future#v7_relativesplatpath.
+
+ [32m✓[39m src/components/TopBar.test.tsx [2m([22m[2m5 tests[22m[2m)[22m[32m 192[2mms[22m[39m
+[90mstderr[2m | src/components/BottomNav.test.tsx[2m > [22m[2mBottomNav[2m > [22m[2mrenders all four navigation tabs
+[22m[39m⚠️ React Router Future Flag Warning: React Router will begin wrapping state updates in `React.startTransition` in v7. You can use the `v7_startTransition` future flag to opt-in early. For more information, see https://reactrouter.com/v6/upgrading/future#v7_starttransition.
+⚠️ React Router Future Flag Warning: Relative route resolution within Splat routes is changing in v7. You can use the `v7_relativeSplatPath` future flag to opt-in early. For more information, see https://reactrouter.com/v6/upgrading/future#v7_relativesplatpath.
+
+ [32m✓[39m src/components/BottomNav.test.tsx [2m([22m[2m2 tests[22m[2m)[22m[32m 76[2mms[22m[39m
+[90mstderr[2m | src/app/Layouts.test.tsx[2m > [22m[2mPhoneLayout[2m > [22m[2mrenders the status bar and outlet child
+[22m[39m⚠️ React Router Future Flag Warning: React Router will begin wrapping state updates in `React.startTransition` in v7. You can use the `v7_startTransition` future flag to opt-in early. For more information, see https://reactrouter.com/v6/upgrading/future#v7_starttransition.
+⚠️ React Router Future Flag Warning: Relative route resolution within Splat routes is changing in v7. You can use the `v7_relativeSplatPath` future flag to opt-in early. For more information, see https://reactrouter.com/v6/upgrading/future#v7_relativesplatpath.
+
+ [32m✓[39m src/app/Layouts.test.tsx [2m([22m[2m2 tests[22m[2m)[22m[32m 76[2mms[22m[39m
+ [32m✓[39m src/components/Field.test.tsx [2m([22m[2m4 tests[22m[2m)[22m[32m 46[2mms[22m[39m
+ [32m✓[39m src/components/Wordmark.test.tsx [2m([22m[2m4 tests[22m[2m)[22m[32m 48[2mms[22m[39m
+ [32m✓[39m src/features/chat/ChatPage.test.tsx [2m([22m[2m1 test[22m[2m)[22m[32m 38[2mms[22m[39m
+ [32m✓[39m src/components/StatusBar.test.tsx [2m([22m[2m1 test[22m[2m)[22m[32m 42[2mms[22m[39m
+ [32m✓[39m src/lib/format.test.ts [2m([22m[2m6 tests[22m[2m)[22m[32m 23[2mms[22m[39m
+ [32m✓[39m src/components/Divider.test.tsx [2m([22m[2m2 tests[22m[2m)[22m[32m 40[2mms[22m[39m
+ [32m✓[39m src/data/seed.test.ts [2m([22m[2m6 tests[22m[2m)[22m[32m 5[2mms[22m[39m
+ [32m✓[39m src/store/bookingStore.test.ts [2m([22m[2m7 tests[22m[2m)[22m[32m 5[2mms[22m[39m
+ [32m✓[39m src/app/router.test.tsx [2m([22m[2m2 tests[22m[2m)[22m[32m 4[2mms[22m[39m
+ [32m✓[39m src/store/authStore.test.ts [2m([22m[2m4 tests[22m[2m)[22m[32m 4[2mms[22m[39m
+
+[2m Test Files [22m [1m[32m28 passed[39m[22m[90m (28)[39m
+[2m      Tests [22m [1m[32m133 passed[39m[22m[90m (133)[39m
+[2m   Start at [22m 12:06:27
+[2m   Duration [22m 23.13s[2m (transform 604ms, setup 10.78s, collect 11.34s, tests 19.29s, environment 50.35s, prepare 6.06s)[22m
+
+[34m % [39m[2mCoverage report from [22m[33mv8[39m
+-------------------|---------|----------|---------|---------|-------------------
+File               | % Stmts | % Branch | % Funcs | % Lines | Uncovered Line #s 
+-------------------|---------|----------|---------|---------|-------------------
+All files          |   99.52 |    96.64 |    94.8 |   99.52 |                   
+ app               |     100 |      100 |     100 |     100 |                   
+  Layouts.tsx      |     100 |      100 |     100 |     100 |                   
+  router.tsx       |     100 |      100 |     100 |     100 |                   
+ components        |     100 |    95.83 |     100 |     100 |                   
+  BottomNav.tsx    |     100 |      100 |     100 |     100 |                   
+  Button.tsx       |     100 |      100 |     100 |     100 |                   
+  Divider.tsx      |     100 |      100 |     100 |     100 |                   
+  Field.tsx        |     100 |      100 |     100 |     100 |                   
+  SpaceCard.tsx    |     100 |      100 |     100 |     100 |                   
+  StatusBar.tsx    |     100 |      100 |     100 |     100 |                   
+  TopBar.tsx       |     100 |       80 |     100 |     100 | 27                
+  Wordmark.tsx     |     100 |      100 |     100 |     100 |                   
+ data              |     100 |      100 |     100 |     100 |                   
+  mockApi.ts       |     100 |      100 |     100 |     100 |                   
+  spaces.ts        |     100 |      100 |     100 |     100 |                   
+  user.ts          |     100 |      100 |     100 |     100 |                   
+ features/auth     |   98.53 |    91.66 |   93.33 |   98.53 |                   
+  LoginPage.tsx    |     100 |    88.88 |     100 |     100 | 82                
+  SignUpPage.tsx   |     100 |    85.71 |     100 |     100 | 70                
+  VerifyPage.tsx   |   95.61 |       95 |   85.71 |   95.61 | 20-24             
+ features/booking  |     100 |      100 |   81.81 |     100 |                   
+  ...eDatePage.tsx |     100 |      100 |      80 |     100 |                   
+  PaymentPage.tsx  |     100 |      100 |      75 |     100 |                   
+  SuccessPage.tsx  |     100 |      100 |     100 |     100 |                   
+ features/chat     |     100 |      100 |     100 |     100 |                   
+  ChatPage.tsx     |     100 |      100 |     100 |     100 |                   
+ features/discover |     100 |      100 |     100 |     100 |                   
+  DiscoverPage.tsx |     100 |      100 |     100 |     100 |                   
+  WhereToPage.tsx  |     100 |      100 |     100 |     100 |                   
+ features/home     |   98.41 |       90 |     100 |   98.41 |                   
+  HomePage.tsx     |   98.41 |       90 |     100 |   98.41 | 77                
+ features/profile  |     100 |      100 |     100 |     100 |                   
+  ProfilePage.tsx  |     100 |      100 |     100 |     100 |                   
+ features/search   |     100 |      100 |     100 |     100 |                   
+  SearchPage.tsx   |     100 |      100 |     100 |     100 |                   
+ features/space    |     100 |    88.88 |   66.66 |     100 |                   
+  ...etailPage.tsx |     100 |    88.88 |   66.66 |     100 | 16                
+ lib               |     100 |      100 |     100 |     100 |                   
+  format.ts        |     100 |      100 |     100 |     100 |                   
+ store             |     100 |      100 |     100 |     100 |                   
+  authStore.ts     |     100 |      100 |     100 |     100 |                   
+  bookingStore.ts  |     100 |      100 |     100 |     100 |                   
+-------------------|---------|----------|---------|---------|-------------------
