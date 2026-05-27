@@ -27,7 +27,7 @@ export function SearchPage() {
     <div className="flex h-full flex-col bg-bg">
       <div className="border-b border-line bg-bg px-4 py-3">
         <div className="flex items-center gap-3">
-          <button onClick={() => navigate(-1)} className="text-heading">
+          <button aria-label="Go back" onClick={() => navigate(-1)} className="text-heading">
             <ChevronLeft size={24} />
           </button>
           <div className="flex-1">
@@ -35,6 +35,7 @@ export function SearchPage() {
               autoFocus
               value={query}
               onChange={(e) => setQuery(e.target.value)}
+              aria-label="Search spaces"
               placeholder="Search spaces..."
               className="w-full rounded-lg bg-surface px-3 py-2 text-[15px] text-text placeholder:text-placeholder outline-none"
             />
@@ -42,6 +43,7 @@ export function SearchPage() {
         </div>
       </div>
 
+      <h1 className="sr-only">Search</h1>
       <div className="screen-scroll space-y-3 p-4">
         {!query.trim() ? (
           <div className="text-center py-8 text-muted">

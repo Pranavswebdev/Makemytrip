@@ -37,7 +37,7 @@ export function SpaceDetailPage() {
   return (
     <div className="flex h-full flex-col bg-bg">
       <div className="border-b border-line bg-bg px-4 py-3">
-        <button onClick={() => navigate(-1)} className="text-heading">
+        <button aria-label="Go back" onClick={() => navigate(-1)} className="text-heading">
           <ChevronLeft size={24} />
         </button>
       </div>

@@ -1,0 +1,43 @@
+SonarQube plugins:
+  - Python Code Quality and Security 3.4.1.8066 (python)
+  - CSS Code Quality and Security 1.4.2.2002 (cssfamily)
+  - Go Code Quality and Security 1.8.3.2219 (go)
+  - JaCoCo 1.1.1.1157 (jacoco)
+  - Kotlin Code Quality and Security 1.8.3.2219 (kotlin)
+  - JavaScript/TypeScript Code Quality and Security 7.4.4.15624 (javascript)
+  - Ruby Code Quality and Security 1.8.3.2219 (ruby)
+  - Scala Code Quality and Security 1.8.3.2219 (sonarscala)
+  - C# Code Quality and Security 8.22.0.31243 (csharp)
+  - Flutter 0.4.0 (flutter)
+  - Java Code Quality and Security 6.15.1.26025 (java)
+  - HTML Code Quality and Security 3.4.0.2754 (web)
+  - Flex Code Quality and Security 2.6.1.2564 (flex)
+  - XML Code Quality and Security 2.2.0.2973 (xml)
+  - PHP Code Quality and Security 3.17.0.7439 (php)
+  - VB.NET Code Quality and Security 8.22.0.31243 (vbnet)
+Global server settings:
+  - sonar.core.id=3B4DD99F-AW7FP-YyGeCrQnushZMW
+  - sonar.core.startTime=2026-03-08T11:02:58+0000
+  - sonar.forceAuthentication=false
+  - sonar.plugins.risk.consent=ACCEPTED
+  - sonar.technicalDebt.developmentCost=50
+Project server settings:
+Project scanner properties:
+  - sonar.coverage.jacoco.xmlReportPaths=target/site/jacoco/jacoco.xml,build/reports/jacoco/test/jacocoTestReport.xml
+  - sonar.cs.opencover.reportsPaths=coverage.opencover.xml,**/coverage.opencover.xml
+  - sonar.exclusions=node_modules/**,dist/**,coverage/**,.devmind/**
+  - sonar.go.coverage.reportPaths=coverage.out
+  - sonar.host.url=https://codequality.ccstechnologies.org
+  - sonar.javascript.lcov.reportPaths=coverage/lcov.info
+  - sonar.login=******
+  - sonar.projectBaseDir=C:\Users\pranav.sajanan\Documents\AI-Framework\Hotel app
+  - sonar.projectKey=Makmytrip
+  - sonar.python.coverage.reportPaths=coverage.xml
+  - sonar.qualitygate.wait=true
+  - sonar.scanner.app=ScannerCLI
+  - sonar.scanner.appVersion=4.7.0.2747
+  - sonar.sourceEncoding=windows-1252
+  - sonar.sources=src
+  - sonar.testExecutionReportPaths=test-results/sonar-execution.xml
+  - sonar.typescript.lcov.reportPaths=coverage/lcov.info
+  - sonar.working.directory=C:\Users\pranav.sajanan\Documents\AI-Framework\Hotel app\.scannerwork

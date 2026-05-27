@@ -101,6 +101,7 @@ export function VerifyPage() {
               type="text"
               inputMode="numeric"
               maxLength={1}
+              aria-label={`Verification code digit ${index + 1}`}
               value={code}
               onChange={(e) => handleInputChange(index, e.target.value)}
               onKeyDown={(e) => handleKeyDown(index, e)}

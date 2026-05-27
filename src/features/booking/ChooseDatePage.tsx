@@ -19,7 +19,7 @@ export function ChooseDatePage() {
   return (
     <div className="flex h-full flex-col bg-bg">
       <div className="border-b border-line bg-bg px-4 py-3">
-        <button onClick={() => navigate(-1)} className="text-heading">
+        <button aria-label="Go back" onClick={() => navigate(-1)} className="text-heading">
           <ChevronLeft size={24} />
         </button>
       </div>
@@ -31,10 +31,14 @@ export function ChooseDatePage() {
 
         <div className="space-y-4">
           <div>
-            <label className="mb-2 block text-[15px] font-medium text-heading">
+            <label
+              htmlFor="check-in"
+              className="mb-2 block text-[15px] font-medium text-heading"
+            >
               Check In
             </label>
             <input
+              id="check-in"
               type="date"
               value={checkIn}
               onChange={(e) => setCheckIn(e.target.value)}
@@ -43,10 +47,14 @@ export function ChooseDatePage() {
           </div>
 
           <div>
-            <label className="mb-2 block text-[15px] font-medium text-heading">
+            <label
+              htmlFor="check-out"
+              className="mb-2 block text-[15px] font-medium text-heading"
+            >
               Check Out
             </label>
             <input
+              id="check-out"
               type="date"
               value={checkOut}
               onChange={(e) => setCheckOut(e.target.value)}

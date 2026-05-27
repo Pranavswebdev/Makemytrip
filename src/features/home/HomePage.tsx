@@ -24,11 +24,13 @@ export function HomePage() {
       <div className="border-b border-line bg-bg px-4 py-4">
         <div className="flex items-center justify-between">
           <Wordmark size={20} showText={false} />
-          <button className="text-heading hover:opacity-70">
+          <button aria-label="Notifications" className="text-heading hover:opacity-70">
             <Bell size={20} />
           </button>
         </div>
       </div>
+
+      <h1 className="sr-only">Home</h1>
 
       {/* Content */}
       <div className="screen-scroll flex flex-col gap-6 p-4">

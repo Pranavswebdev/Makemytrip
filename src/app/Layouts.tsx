@@ -8,9 +8,9 @@ export function PhoneLayout() {
     <div className="app-shell">
       <div className="phone">
         <StatusBar />
-        <div className="screen-scroll no-scrollbar">
+        <main className="screen-scroll no-scrollbar">
           <Outlet />
-        </div>
+        </main>
       </div>
     </div>
   );
@@ -22,9 +22,9 @@ export function TabLayout() {
     <div className="app-shell">
       <div className="phone">
         <StatusBar />
-        <div className="screen-scroll no-scrollbar">
+        <main className="screen-scroll no-scrollbar">
           <Outlet />
-        </div>
+        </main>
         <BottomNav />
       </div>
     </div>

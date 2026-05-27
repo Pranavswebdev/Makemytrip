@@ -1,6 +1,0 @@
-projectKey=Makmytrip
-serverUrl=https://codequality.ccstechnologies.org
-serverVersion=8.9.5.50698
-dashboardUrl=https://codequality.ccstechnologies.org/dashboard?id=Makmytrip
-ceTaskId=AZ5nj5eQxm1LYIwvKOdS
-ceTaskUrl=https://codequality.ccstechnologies.org/api/ce/task?id=AZ5nj5eQxm1LYIwvKOdS
