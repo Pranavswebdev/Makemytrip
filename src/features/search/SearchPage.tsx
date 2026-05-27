@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 import { useNavigate } from "react-router-dom";
-import { Search, ChevronLeft } from "lucide-react";
+import { ChevronLeft } from "lucide-react";
 import { searchSpaces } from "../../data/mockApi";
 import { SpaceCard } from "../../components/SpaceCard";
 import type { Space } from "../../data/types";

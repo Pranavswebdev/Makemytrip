@@ -1,9 +1,8 @@
 import { render, screen, fireEvent, waitFor } from "@testing-library/react";
 import userEvent from "@testing-library/user-event";
-import { BrowserRouter } from "react-router-dom";
 import { MemoryRouter } from "react-router-dom";
 import { VerifyPage } from "./VerifyPage";
-import { describe, it, expect, vi } from "vitest";
+import { describe, it, expect } from "vitest";
 
 const renderWithRouter = (component: React.ReactNode) => {
   return render(

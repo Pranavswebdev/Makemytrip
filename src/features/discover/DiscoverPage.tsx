@@ -1,19 +1,18 @@
 import { useEffect, useState } from "react";
-import { useNavigate } from "react-router-dom";
 import { listByArea } from "../../data/mockApi";
 import { MiniSpaceCard } from "../../components/SpaceCard";
 import type { Space } from "../../data/types";
 
+const AREAS = ["East Jakarta", "Cibubur", "Malang"];
+
 export function DiscoverPage() {
-  const navigate = useNavigate();
   const [areaSpaces, setAreaSpaces] = useState<Record<string, Space[]>>({});
   const [loading, setLoading] = useState(true);
-  const areas = ["East Jakarta", "Cibubur", "Malang"];
 
   useEffect(() => {
-    Promise.all(areas.map((area) => listByArea(area))).then((results) => {
+    Promise.all(AREAS.map((area) => listByArea(area))).then((results) => {
       const grouped: Record<string, Space[]> = {};
-      areas.forEach((area, i) => {
+      AREAS.forEach((area, i) => {
         grouped[area] = results[i];
       });
       setAreaSpaces(grouped);
@@ -28,7 +27,7 @@ export function DiscoverPage() {
         {loading ? (
           <div className="text-center text-muted">Loading...</div>
         ) : (
-          areas.map((area) => (
+          AREAS.map((area) => (
             <div key={area}>
               <h2 className="mb-3 text-[16px] font-semibold text-heading">
                 {area}
